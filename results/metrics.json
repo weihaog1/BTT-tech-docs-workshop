@@ -1,0 +1,8 @@
+{
+  "model": "logistic regression",
+  "saved": "2026-09-14",
+  "n_test_bookings": 4000,
+  "accuracy": 0.800,
+  "precision": 0.834,
+  "recall": 0.586
+}

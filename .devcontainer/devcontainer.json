@@ -1,0 +1,13 @@
+{
+  "name": "AI Studio Tech Docs Workshop",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["WORKSHOP.md"]
+    },
+    "vscode": {
+      "extensions": ["GitHub.copilot", "GitHub.copilot-chat"]
+    }
+  }
+}
